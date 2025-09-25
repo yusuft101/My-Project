@@ -1,0 +1,45 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	background-color: #CCCCCC;
+}
+#container{
+	width: 990px;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 10px;
+	border: solid 1px #000;
+	background: #fff;
+}
+#header{
+	width: 960px;
+	height: 180px;
+	margin-right: auto;
+	margin-left: auto;
+	background: #ff0;
+}
+#nav{
+	width: 960px;
+	height: 60px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 10px;
+	background: #00f;
+}
+#content{
+	width: 960px;
+	height: 450px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 10px;
+	background: #ff0;
+}
+#footer{
+	width: 960px;
+	height: 200px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 10px;
+	background: #00f;
+}

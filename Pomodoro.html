@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pomodoro Zamanlayıcısı</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="sticky-nav">
+    <h1>Pomodoro Zamanlayıcısı</h1>
+    <nav class="controls">
+      <button id="start">Başlat</button>
+      <button id="pause">Durdur</button>
+      <button id="reset">Sıfırla</button>
+    </nav>
+  </header>
+
+  <main class="container">
+    <div class="circles">
+      <div class="circle" id="c1"></div>
+      <div class="circle" id="c2"></div>
+      <div class="circle" id="c3"></div>
+      <div class="circle" id="c4"></div>
+    </div>
+    <div class="timer" id="timer">25:00</div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
